@@ -77,12 +77,6 @@ body {
   margin: 15px;
 }
 
-.cabecera__lista__item a:hover {
-  box-shadow: 0px 0px 13px rgb(109, 106, 106);
-  transition: 500ms;
-  border-radius: 20%;
-}
-
 /* FOOTER */
 
 .pie {
@@ -487,4 +481,17 @@ body {
     "titulo"
     "productos"
     "footer";
+}
+
+/* Transiciones, animaciones y/o transformaciones - desafio crear repositorio en GitHub */
+
+.cabecera__lista__item {
+  border-radius: 15%;
+  transition: background-color 1s linear;
+  transition: box-shadow 1s linear;
+}
+
+.cabecera__lista__item:hover {
+  background-color: #fc0e0e;
+  box-shadow: 10px 10px #ec3d2299;
 }
