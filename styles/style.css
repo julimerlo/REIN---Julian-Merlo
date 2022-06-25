@@ -495,3 +495,29 @@ body {
   background-color: #fc0e0e;
   box-shadow: 10px 10px #ec3d2299;
 }
+
+.cabecera__logo img {
+  animation: fadeIn 5s ease-in forwards, growth 2s 1s ease-in forwards;
+}
+
+@keyframes fadeIn {
+  0% {
+    transform: translateX(-100px);
+  }
+  20%,
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+@keyframes growth {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.5);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
