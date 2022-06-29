@@ -17,13 +17,13 @@ font-family: 'Oswald', sans-serif;
 font-family: 'Quicksand', sans-serif;
 */
 
-body {
+/* body {
   font-family: "Nunito", sans-serif;
   background-image: url(imgs/white-concrete-wall.jpg);
-}
+} */
 
 /* HEADER */
-
+/* 
 .cabecera {
   background-color: rgb(255, 255, 255);
   border-bottom: 2px grey groove;
@@ -69,17 +69,17 @@ body {
 .cabecera__lista ul {
   font-size: 30px;
   display: flex;
-  /* flex-wrap: wrap; */
-}
+  /* flex-wrap: wrap;
+} */
 
-.cabecera__lista__item a {
+/* .cabecera__lista__item a {
   color: black;
   margin: 15px;
-}
+} */
 
 /* FOOTER */
 
-.pie {
+/* .pie {
   grid-area: footer;
   display: flex;
   justify-content: space-evenly;
@@ -98,7 +98,7 @@ body {
   height: 40px;
   width: 40px;
   margin: 0px 15px;
-}
+} */
 
 /* INDEX */
 
@@ -161,7 +161,7 @@ body {
 } */
 
 /*  SERVICIOS */
-
+/* 
 .servicio,
 .obras {
   text-align: center;
@@ -212,7 +212,7 @@ body {
 
 /* CONTACTO */
 
-.contacto__datos {
+/* .contacto__datos {
   border-right: 2px grey solid;
   grid-area: contacto;
 }
@@ -253,10 +253,10 @@ body {
 .contacto__formulario {
   text-align: center;
   grid-area: formulario;
-}
+} */
 
 /* OBRAS */
-
+/* 
 .obras__varias {
   display: flex;
   flex-wrap: wrap;
@@ -287,7 +287,7 @@ body {
   border-radius: 10%;
   width: 450px;
   height: 350px;
-}
+} */
 
 /* PRODUCTOS */
 
@@ -432,7 +432,7 @@ body {
 
 /* GRID Obras */
 
-.grid-container-obras {
+/* .grid-container-obras {
   display: grid;
   grid-template-rows: 200px 50px 1fr 70px;
 
@@ -441,11 +441,11 @@ body {
     "titulo"
     "obras"
     "footer";
-}
+} */
 
 /* GRID Servicios */
 
-.grid-container-servicios {
+/* .grid-container-servicios {
   display: grid;
   grid-template-rows: 200px 70px 1fr 70px;
 
@@ -454,11 +454,11 @@ body {
     "titulo"
     "servicios"
     "footer";
-}
+} */
 
 /* GRID Contacto */
 
-.grid-container-contacto {
+/* .grid-container-contacto {
   display: grid;
   grid-template-rows: 200px 1fr 70px;
   grid-template-columns: 1fr 1fr;
@@ -467,7 +467,7 @@ body {
     "header header"
     "contacto formulario"
     "footer footer";
-}
+} */
 
 /* GRID Productos */
 
@@ -484,7 +484,7 @@ body {
 
 /* Transiciones, animaciones y/o transformaciones - desafio crear repositorio en GitHub */
 
-.cabecera__lista__item {
+/* .cabecera__lista__item {
   border-radius: 15%;
   transition: background-color 1s linear;
   transition: box-shadow 1s linear;
@@ -519,7 +519,7 @@ body {
   100% {
     transform: scale(1);
   }
-}
+} */
 
 /* Desafio Bootstrap */
 
