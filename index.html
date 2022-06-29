@@ -2,100 +2,158 @@
 <html lang="es">
 
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Refractarios Industriales SRL</title>
-  <link rel="stylesheet" href="styles/style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Refractarios Industriales SRL</title>
+    <!-- CSS Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <!-- Iconos Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+    <!-- CSS  -->
+    <link rel="stylesheet" href="styles/style.css">
 </head>
 <!--El tema de la pagina web es sobre la empresa familiar, Refractarios Industriales SRL-->
 
-<body>
+<body class="bg-dark bg-gradient">
 
-  <div class="grid-container-index">
-
-    <header class="cabecera">
-      <nav>
-        <div class="cabecera__logo">
-          <a href="index.html"><img src="multimedia/img/rein.jpg" alt="logo Refractarios Industriales SRL"
-              width="100px">Refractarios Industriales</a>
-        </div>
-        <div class="cabecera__lista">
-          <ul>
-            <li class="cabecera__lista__item"><a href="index.html">Inicio</a></li>
-            <li class="cabecera__lista__item"><a href="pages/productos.html">Productos</a></li>
-            <li class="cabecera__lista__item"><a href="pages/servicios.html">Servicios</a></li>
-            <li class="cabecera__lista__item"><a href="pages/obras.html">Obras</a></li>
-            <li class="cabecera__lista__item"><a href="pages/contacto.html">Contacto</a></li>
-          </ul>
-        </div>
-      </nav>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top shadow mb-3">
+            <div class="container">
+                <a class="navbar-brand" href="index.html"><img src="multimedia/img/reinblanco.png"
+                        alt="logo Refractarios Industriales SRL" alt="" width="100vw" height=""
+                        class="d-inline-block align-text-center">Refractarios Industriales</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <ul class="collapse navbar-collapse justify-content-evenly navbar-nav" id="navbarNav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="pages/productos.html">Productos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="pages/servicios.html">Servicios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="pages/obras.html">Obras</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="pages/contacto.html">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
     </header>
 
-    <!--1er seccion / fotos en carrusel-->
-    <section class="index__carrusel">
-      <img src="multimedia/img/horno.jpg" alt="Horno REIN">
-      <img src="multimedia/img/cuchara1.jpg" alt="Cuchara fundicion REIN">
-      <img src="multimedia/img/cuchara2.jpg" alt="Cuchara colando acero REIN">
+    <section>
+        <div id="carouselExampleIndicators" class="carousel slide container mb-3" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="multimedia/img/cuchara1.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="multimedia/img/cuchara2.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="multimedia/img/horno.jpg" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
     </section>
 
-    <section class="index">
-      <div class="index__box1">
-        <div class="index__box1__somos">
-          <h1>SOMOS REFRACTARIOS INDUSTRIALES SRL</h1>
-          <p>Más de 10 años ofreciendo soluciones de alta temperatura en los sectores de refractarios, protección contra
-            incendios, tratamientos térmicos y aislamientos. Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-            Magnam exercitationem iure dolores in modi aperiam nihil cum nobis, natus voluptatibus tempore
-            necessitatibus
-            omnis, inventore fuga veritatis assumenda mollitia obcaecati porro nostrum ab. Rem nemo doloribus molestiae,
-            corrupti eaque quae perferendis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi explicabo
-            error
-            qui sapiente rem quidem, dolorem delectus illo facilis enim animi debitis quam accusamus quibusdam
-            laboriosam
-            provident voluptas, corrupti, ex dolorum assumenda dolores quae voluptatibus tempore. Eum perferendis
-            laborum
-            animi maxime porro suscipit, aliquam molestias minus! Officia nobis aliquid repudiandae quas obcaecati
-            architecto accusamus corporis, sapiente soluta corrupti, debitis libero ex quam dolor a possimus provident
-            sunt iusto. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis perferendis officia modi
-            neque
-            maxime, quasi cum repudiandae laudantium. Atque, est!lorem20
-          </p>
+    <section>
+        <div class="container mb-3">
+            <div class="row row-cols-1 row-cols-md-2 justify-content-around text-center g-5 py-3">
+                <div class="col bg-gray600 text-light">
+                    <h5 class="card-title py-5">Somos Refractarios Industriales SRL</h5>
+                    <p class="card-text">Más de 10 años ofreciendo soluciones de alta temperatura en los
+                        sectores de
+                        refractarios, protección contra
+                        incendios, tratamientos térmicos y aislamientos. Lorem ipsum dolor, sit amet consectetur
+                        adipisicing elit. Eos
+                        tempora vero ab rerum, quibusdam laborum inventore obcaecati cupiditate odit voluptas ex nemo
+                        digniss
+                        dicta omnis facere totam quaerat quas recusandae ullam nisi a nesciunt sed fuga!Eos
+                        tempora vero ab rerum, quibusdam laborum inventore obcaecati cupiditate odit voluptas ex nemo
+                        digniss
+                        dicta omnis facere totam quaerat quas recusandae ullam nisi a nesciunt sed fuga!Eos
+                        tempora vero ab rerum, quibusdam laborum inventore obcaecati cupiditate odit voluptas ex nemo
+                        digniss
+                        dicta omnis facere totam quaerat quas recusandae ullam nisi a nesciunt sed fuga!
+                </div>
+                <div class="col video text-light">
+                    <h5 class="py-3">¿Qué son los materiales refractarios?</h5>
+                    <iframe height="350px" width="100%" src="https://www.youtube.com/embed/oxbfNHJ9vyM"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+            </div>
         </div>
-      </div>
-
-      <div class="index__box2">
-        <div class="index__box2__video">
-          <h3>¿Qué son los materiales refractarios?</h3>
-          <iframe src="https://www.youtube.com/embed/oxbfNHJ9vyM" title="YouTube video player" frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen></iframe>
-        </div>
-      </div>
     </section>
 
-    <footer class="pie">
-      <div class="pie__derechos">
-        <p>Todos los derechos reservados || Refractarios Industriales SRL 2022</p>
-      </div>
-      <div class="pie__redes">
-        <p>Seguinos en nuestras redes:</p>
-        <a href="https://www.instagram.com/refractariosindustrialessrl/" target="_blank"><img
-            src="multimedia/img/instagram.png" alt="Enlace Instagram Refractarios Industriales SRL"></a>
-        <!--direccion red social inventada-->
-        <a href="https://twitter.com/refractariosindustrialessrl" target="_blank"><img src="multimedia/img/gorjeo.png"
-            alt="Enlace Twitter Refractarios Industriales SRL"></a>
-        <!--direccion red social inventada-->
-        <a href="https://es-la.facebook.com/refractarios.industriales.srl" target="_blank"><img
-            src="multimedia/img/facebook.png" alt="Enlace Facebook Refractarios Industriales SRL"></a>
-        <!--direccion red social inventada-->
-        <a href="https://www.youtube.com/c/RefractariosIndustrialesSRL" target="_blank"><img
-            src="multimedia/img/youtube.png" alt="Enlace Facebook Refractarios Industriales SRL"></a>
-        <!--direccion red social inventada-->
-      </div>
+    <footer class="bg-dark text-center text-white">
+        <!-- Grid container -->
+        <div class="container p-2 pb-0">
+            <!-- Section: Social media -->
+            <section class="mb-2">
+                <!-- Facebook -->
+                <a class="btn btn-outline-light btn-floating m-1"
+                    href="https://es-la.facebook.com/refractarios.industriales.srl" role="button" target="_blank"><i
+                        class="bi bi-facebook"></i>
+
+                    <!-- Twitter -->
+                    <a class="btn btn-outline-light btn-floating m-1"
+                        href="https://twitter.com/refractariosindustrialessrl" role="button" target="_blank"><i
+                            class="bi bi-twitter"></i></a>
+
+                    <!-- YouTube -->
+                    <a class="btn btn-outline-light btn-floating m-1"
+                        href="https://www.youtube.com/c/RefractariosIndustrialesSRL" role="button" target="_blank"><i
+                            class="bi bi-youtube"></i></a>
+
+                    <!-- Instagram -->
+                    <a class="btn btn-outline-light btn-floating m-1"
+                        href="https://www.instagram.com/refractariosindustrialessrl/" role="button" target="_blank"><i
+                            class="bi bi-instagram"></i></a>
+            </section>
+            <!-- Section: Social media -->
+        </div>
+        <!-- Grid container -->
+
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+            Todos los derechos reservados || Refractarios Industriales SRL 2022
+        </div>
+        <!-- Copyright -->
     </footer>
 
-  </div>
-
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>

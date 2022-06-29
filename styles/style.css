@@ -389,13 +389,13 @@ body {
   padding: 0px 70px;
 }
 
-.btn {
+/* .btn {
   margin: 20px;
   border: 1px black solid;
   background-color: aquamarine;
   display: inline-block;
   padding: 5px;
-}
+} */
 
 /* lo de abajo no se si es la forma correcta, se me ocurrio hacerlo asi y funciono, ya que estaba teniendo problemas con los enlaces dentro de la pagina por la position:fixed del navbar, se me superponia sobre enlace origianal*/
 .punto {
