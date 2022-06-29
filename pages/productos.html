@@ -2,186 +2,371 @@
 <html lang="es">
 
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Productos</title>
-  <link rel="stylesheet" href="../styles/style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productos</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <!-- Iconos Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+    <!-- CSS  -->
+    <link rel="stylesheet" href="../styles/style.css">
 </head>
 <!--El tema de la pagina web es sobre la empresa familiar, Refractarios Industriales SRL-->
 
-<body>
+<body class="bg-dark bg-gradient">
 
-  <div class="grid-container-productos ">
-
-    <header class="cabecera">
-      <nav>
-        <div class="cabecera__logo">
-          <a href="../index.html"><img src="../multimedia/img/rein.jpg" alt="logo Refractarios Industriales SRL"
-              width="100px">Refractarios Industriales</a>
-        </div>
-        <div class="cabecera__lista">
-          <ul>
-            <li class="cabecera__lista__item"><a href="../index.html">Inicio</a></li>
-            <li class="cabecera__lista__item"><a href="productos.html">Productos</a></li>
-            <li class="cabecera__lista__item"><a href="servicios.html">Servicios</a></li>
-            <li class="cabecera__lista__item"><a href="obras.html">Obras</a></li>
-            <li class="cabecera__lista__item"><a href="contacto.html">Contacto</a></li>
-          </ul>
-        </div>
-      </nav>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top shadow mb-3">
+            <div class="container">
+                <a class="navbar-brand" href="../index.html"><img src="../multimedia/img/reinblanco.png"
+                        alt="logo Refractarios Industriales SRL" alt="" width="100vw" height=""
+                        class="d-inline-block align-text-center">Refractarios Industriales</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <ul class="collapse navbar-collapse justify-content-evenly navbar-nav" id="navbarNav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="productos.html">Productos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="servicios.html">Servicios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="obras.html">Obras</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contacto.html">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
     </header>
 
-    <h1 class="producto">Nuestros Productos</h1>
-
-    <section class="productos">
-      <!--En un principio los productos van a estar en listas. La idea es, si es que damos el tema, mostrar los productos en una tabla-->
-
-      <div>
-        <ul class="productos__tipos">
-          <li><a href="#hormigones">Hormigones refractarios</a></li>
-          <li><a href="#apisonables">Apisonables refractarios</a></li>
-          <li><a href="#otros">Otros materiales</a></li>
-          <li><a href="#piezas-aluminio">Piezas especiales para fundicion de aluminio</a></li>
-        </ul>
-      </div>
-
-      <div class="prod">
-        <div>
-          <h2 class="prod__horm">Hormigones refractarios</h2>
-          <ul>
-            <li class="prod__horm__tipos">Convencionales
-              <ul>
-                <li>RC40: hormigón refractario de baja alúmina</li>
-                <li>RC60: hormigón refractario alúminoso</li>
-                <li>RC80: hormigón refractario de alta alúmina (80%)</li>
-                <li>RC85: hormigón refractario de alta alúmina (85%)</li>
-                <li>RCL: hormigón refractario aislante</li>
-              </ul>
-            </li>
-            <li class="prod__horm__tipos">Bajo cemento
-              <ul>
-                <li>RC50BC: hormigón refractario aluminoso de bajo cemento</li>
-                <li>RC60BC: hormigón refractario aluminoso de bajo cemento</li>
-                <li>RC80BC1: hormigón refractario de alta alúmina y bajo cemento</li>
-                <li>RC80BC2: hormigón refractario de alta alúmina y bajo cemento de alta resistencia mecánica</li>
-              </ul>
-            </li>
-            <li class="prod__horm__tipos">Proyectables
-              <ul>
-                <li>RCLP: hormigón refractario aislante proyectable - gunning</li>
-                <li>RC60GUN: hormigón refractario aluminoso proyectable - gunning</li>
-                <li>RC80SC: hormigón refractario de alta alúmina y bajo cemento - shotcreting</li>
-              </ul>
-            </li>
-          </ul>
+    <section>
+        <div class="container">
+            <div class="text-center bg-dark text-light">
+                <div class="col-md-8 p-lg-5 mx-auto my-5">
+                    <h2 class="display-4 fw-normal">Refractarios Industriales SRL</h2>
+                    <p class=>garantiza la calidad de todos sus productos, apoyando al cliente en la
+                        adecuada selección e instalación de los mismos y
+                        acompañándolo durante todo el ciclo de vida del material en operación. Adicionalmente, ofrecemos
+                        Servicio Integral
+                        Llave en Mano, que va desde el diseño del producto e ingeniería del revestimiento, hasta la
+                        instalación y entrega final
+                        al cliente.</p>
+                </div>
+            </div>
         </div>
 
-        <div>
-          <h2 class="prod__api">Apisonables refractarios</h2>
-          <ul>
-            <li class="prod__api__tipos">Convencionales
-              <ul>
-                <li>RP40: apisonable refractario de baja alúmina y liga cerámica</li>
-                <li>RC40C: apisonable refractario de baja alúmina y liga cerámica</li>
-                <li>RC60: apisonable refractario aluminoso y liga cerámica</li>
-                <li>RC70: apisonable refractario de alta alúmina y liga cerámica</li>
-              </ul>
-            </li>
-            <li class="prod__api__tipos">Liga quimica
-              <ul>
-                <li>RP60FQ: apisonable refractario aluminoso y liga química</li>
-                <li>RP80FQ: apisonable refractario de alta alúmina y liga química</li>
-                <li>RP80FQBr: apisonable refractario de alta alúmina y liga química</li>
-                <li>RP85FQ: apisonable refractario de alta alúmina y liga química</li>
-              </ul>
-            </li>
-            <li class="prod__api__tipos">Liga quimica con aditivos
-              <ul>
-                <li>RP40FQGraf: apisonable refractario de baja alúmina y liga química con adición de grafito</li>
-                <li>RP80FQV: apisonable refractario de alta alúmina y liga química con adición de óxido de cromo</li>
-                <li>RP85FQV: apisonable refractario de alta alúmina y liga química con adición de óxido de cromo</li>
-              </ul>
-            </li>
-          </ul>
+        <div class="container p-2">
+            <div class="row row-cols-1 row-cols-lg-2 g-2">
+                <div class="accordion col" id="accordionPanelsStayOpenExample">
+                    <div class="accordion-item">
+                        <h2 class="text-center">Hormigones refractarios</h2>
+                        <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
+                                aria-controls="panelsStayOpen-collapseOne">
+                                Hormigones Convencionales
+                            </button>
+                        </h2>
+                        <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse"
+                            aria-labelledby="panelsStayOpen-headingOne">
+                            <div class="accordion-body">
+                                <ul>
+                                    <li>RC40: hormigón refractario de baja alúmina</li>
+                                    <li>RC60: hormigón refractario alúminoso</li>
+                                    <li>RC80: hormigón refractario de alta alúmina (80%)</li>
+                                    <li>RC85: hormigón refractario de alta alúmina (85%)</li>
+                                    <li>RCL: hormigón refractario aislante</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
+                                aria-controls="panelsStayOpen-collapseTwo">
+                                Hormigones con BAJO cemento
+                            </button>
+                        </h2>
+                        <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse"
+                            aria-labelledby="panelsStayOpen-headingTwo">
+                            <div class="accordion-body">
+                                <ul>
+                                    <li>RC50BC: hormigón refractario aluminoso de bajo cemento</li>
+                                    <li>RC60BC: hormigón refractario aluminoso de bajo cemento</li>
+                                    <li>RC80BC1: hormigón refractario de alta alúmina y bajo cemento</li>
+                                    <li>RC80BC2: hormigón refractario de alta alúmina y bajo cemento de alta resistencia
+                                        mecánica</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
+                                aria-controls="panelsStayOpen-collapseThree">
+                                Hormigones Proyectables
+                            </button>
+                        </h2>
+                        <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse"
+                            aria-labelledby="panelsStayOpen-headingThree">
+                            <div class="accordion-body">
+                                <ul>
+                                    <li>RCLP: hormigón refractario aislante proyectable - gunning</li>
+                                    <li>RC60GUN: hormigón refractario aluminoso proyectable - gunning</li>
+                                    <li>RC80SC: hormigón refractario de alta alúmina y bajo cemento - shotcreting</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion col" id="accordionPanelsStayOpenExample">
+                    <div class="accordion-item">
+                        <h2 class="text-center">Apisonables refractarios</h2>
+                        <h2 class="accordion-header" id="panelsStayOpen-headingOne1">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#panelsStayOpen-collapseOne1" aria-expanded="true"
+                                aria-controls="panelsStayOpen-collapseOne1">
+                                Apisonables Convencionales
+                            </button>
+                        </h2>
+                        <div id="panelsStayOpen-collapseOne1" class="accordion-collapse collapse"
+                            aria-labelledby="panelsStayOpen-headingOne1">
+                            <div class="accordion-body">
+                                <ul>
+                                    <li>RP40: apisonable refractario de baja alúmina y liga cerámica</li>
+                                    <li>RC40C:apisonable refractario de baja alúmina y liga cerámica</li>
+                                    <li>RC60: apisonable refractario aluminoso y liga cerámica</li>
+                                    <li>RC70: apisonable refractario de alta alúmina y liga cerámica</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="panelsStayOpen-headingTwo2">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#panelsStayOpen-collapseTwo2" aria-expanded="false"
+                                aria-controls="panelsStayOpen-collapseTwo2">
+                                Apisonables de liga QUIMICA
+                            </button>
+                        </h2>
+                        <div id="panelsStayOpen-collapseTwo2" class="accordion-collapse collapse"
+                            aria-labelledby="panelsStayOpen-headingTwo2">
+                            <div class="accordion-body">
+                                <ul>
+                                    <li>RP60FQ: apisonable refractario aluminoso y liga química</li>
+                                    <li>RP80FQ: apisonable refractario de alta alúmina y liga química</li>
+                                    <li>RP80FQBr: apisonable refractario de alta alúmina y liga química</li>
+                                    <li>RP85FQ: apisonable refractario de alta alúmina y liga química</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="panelsStayOpen-headingThree3">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#panelsStayOpen-collapseThree3" aria-expanded="false"
+                                aria-controls="panelsStayOpen-collapseThree3">
+                                Apisonables de liga QUIMICA con ADITIVOS
+                            </button>
+                        </h2>
+                        <div id="panelsStayOpen-collapseThree3" class="accordion-collapse collapse"
+                            aria-labelledby="panelsStayOpen-headingThree3">
+                            <div class="accordion-body">
+                                <ul>
+                                    <li>RP40FQGraf: apisonable refractario de baja alúmina y liga química con adición de
+                                        grafito</li>
+                                    <li>RP80FQV: apisonable refractario de alta alúmina y liga química con adición de
+                                        óxido
+                                        de cromo</li>
+                                    <li>RP85FQV: apisonable refractario de alta alúmina y liga química con adición de
+                                        óxido
+                                        de cromo</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion col" id="accordionPanelsStayOpenExample">
+                    <div class="accordion-item">
+                        <h2 class="text-center">Otros materiales refractarios</h2>
+                        <h2 class="accordion-header" id="panelsStayOpen-headingOne11">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#panelsStayOpen-collapseOne11" aria-expanded="true"
+                                aria-controls="panelsStayOpen-collapseOne11">
+                                Productos especiales
+                            </button>
+                        </h2>
+                        <div id="panelsStayOpen-collapseOne11" class="accordion-collapse collapse"
+                            aria-labelledby="panelsStayOpen-headingOne11">
+                            <div class="accordion-body">
+                                <ul>
+                                    <li>RS60: mortero húmedo de fragüe aereo - para instalación de ladrillos y bloques
+                                        refractarios</li>
+                                    <li>RM88: masilla refractaria de alta alúmina - para mantenimiento de revestimientos
+                                        en
+                                        contacto con metales
+                                        fundidos</li>
+                                    <li>RPHI: revoque para protección de bobina eléctrica de horno de inducción</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="panelsStayOpen-headingTwo22">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#panelsStayOpen-collapseTwo22" aria-expanded="false"
+                                aria-controls="panelsStayOpen-collapseTwo22">
+                                Briquetas
+                            </button>
+                        </h2>
+                        <div id="panelsStayOpen-collapseTwo22" class="accordion-collapse collapse"
+                            aria-labelledby="panelsStayOpen-headingTwo22">
+                            <div class="accordion-body">
+                                <ul>
+                                    <li>BR.AL.DX: briquetas de aluminio para utilizar como agente desoxidante de metales
+                                        fundidos</li>
+                                    <li>BR.CU: briquetas de cobre</li>
+                                    <li>BR.SI: briquetas de silicio</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="panelsStayOpen-headingThree33">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#panelsStayOpen-collapseThree33" aria-expanded="false"
+                                aria-controls="panelsStayOpen-collapseThree33">
+                                Otros
+                            </button>
+                        </h2>
+                        <div id="panelsStayOpen-collapseThree33" class="accordion-collapse collapse"
+                            aria-labelledby="panelsStayOpen-headingThree33">
+                            <div class="accordion-body">
+                                <ul>
+                                    <li>PREMOLDEADOS: premoldeados refractarios según necesidades del usuario</li>
+                                    <li>MANTAS: mantas cerámicas de distintos espesores, densidades y temperatura de
+                                        servicio</li>
+                                    <li>PLACAS: placas cerámicas de distintos espesores, densidades y temperatura de
+                                        servicio</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion col" id="accordionPanelsStayOpenExample">
+                    <div class="accordion-item">
+                        <h2 class="text-center">Piezas especiales refractarias para
+                            fundicion de aluminio</h2>
+                        <h2 class="accordion-header" id="panelsStayOpen-headingOne111">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#panelsStayOpen-collapseOne111" aria-expanded="true"
+                                aria-controls="panelsStayOpen-collapseOne111">
+                                Boquillas para colada hot top
+                            </button>
+                        </h2>
+                        <div id="panelsStayOpen-collapseOne111" class="accordion-collapse collapse"
+                            aria-labelledby="panelsStayOpen-headingOne111">
+                            <div class="accordion-body">
+                                <ul>
+                                    <li>180mm long x 80mm diametro</li>
+                                    <li>195mm long x 90mm diametro</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="panelsStayOpen-headingTwo222">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#panelsStayOpen-collapseTwo222" aria-expanded="false"
+                                aria-controls="panelsStayOpen-collapseTwo222">
+                                Flotadores para colada hot top
+                            </button>
+                        </h2>
+                        <div id="panelsStayOpen-collapseTwo222" class="accordion-collapse collapse"
+                            aria-labelledby="panelsStayOpen-headingTwo222">
+                            <div class="accordion-body">
+                                <ul>
+                                    <li>92mm diametro</li>
+                                    <li>105mm diametro</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="panelsStayOpen-headingThree333">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#panelsStayOpen-collapseThree333" aria-expanded="false"
+                                aria-controls="panelsStayOpen-collapseThree333">
+                                Otras piezas
+                            </button>
+                        </h2>
+                        <div id="panelsStayOpen-collapseThree333" class="accordion-collapse collapse"
+                            aria-labelledby="panelsStayOpen-headingThree333">
+                            <div class="accordion-body">
+                                <ul>
+                                    <li>Canales para mesas de coladas de aluminio</li>
+                                    <li>Canales para circulacion de aluminio fundido</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-
-        <div>
-          <h2 class="prod__otros" id="otros">Otros materiales</h2>
-          <ul class="prod__otros__li">
-            <li>RS60: mortero húmedo de fragüe aereo - para instalación de ladrillos y bloques refractarios</li>
-            <li>RM88: masilla refractaria de alta alúmina - para mantenimiento de revestimientos en contacto con metales
-              fundidos</li>
-            <li>RPHI: revoque para protección de bobina eléctrica de horno de inducción</li>
-            <li>BR.AL.DX: briquetas de aluminio para utilizar como agente desoxidante de metales fundidos</li>
-            <li>PREMOLDEADOS: premoldeados refractarios según necesidades del usuario</li>
-            <li>MANTAS: mantas cerámicas de distintos espesores, densidades y temperatura de servicio</li>
-            <li>PLACAS: placas cerámicas de distintos espesores, densidades y temperatura de servicio</li>
-          </ul>
-        </div>
-
-        <div>
-          <h2 class="prod__al" id="piezas-aluminio">Piezas especiales para fundicion de aluminio</h2>
-          <ul>
-            <li class="prod__al__tipos">Boquillas para colada hot top
-              <ul>
-                <li>180mm long x 80mm diametro</li>
-                <li>195mm long x 90mm diametro</li>
-              </ul>
-            </li>
-            <li class="prod__al__tipos">Flotadores para colada hot top
-              <ul>
-                <li>92mm diametro</li>
-                <li>105mm diametro</li>
-              </ul>
-            </li>
-            <li class="prod__al__otros">Canales para mesas de coladas de aluminio</li>
-            <li class="prod__al__otros">Canales para circulacion de aluminio fundido</li>
-          </ul>
-        </div>
-      </div>
-
-      <div class="btn">
-        <a href="#irarriba">Volver arriba</a>
-      </div>
     </section>
 
+    <footer class="bg-dark text-center text-white">
+        <!-- Grid container -->
+        <div class="container p-2 pb-0">
+            <!-- Section: Social media -->
+            <section class="mb-2">
+                <!-- Facebook -->
+                <a class="btn btn-outline-light btn-floating m-1"
+                    href="https://es-la.facebook.com/refractarios.industriales.srl" role="button" target="_blank"><i
+                        class="bi bi-facebook"></i>
 
+                    <!-- Twitter -->
+                    <a class="btn btn-outline-light btn-floating m-1"
+                        href="https://twitter.com/refractariosindustrialessrl" role="button" target="_blank"><i
+                            class="bi bi-twitter"></i></a>
 
-    <div class="punto">
-      <p id="irarriba">.</p>
-    </div>
+                    <!-- YouTube -->
+                    <a class="btn btn-outline-light btn-floating m-1"
+                        href="https://www.youtube.com/c/RefractariosIndustrialesSRL" role="button" target="_blank"><i
+                            class="bi bi-youtube"></i></a>
 
-    <div class="punto2">
-      <p id="hormigones">.</p>
-    </div>
+                    <!-- Instagram -->
+                    <a class="btn btn-outline-light btn-floating m-1"
+                        href="https://www.instagram.com/refractariosindustrialessrl/" role="button" target="_blank"><i
+                            class="bi bi-instagram"></i></a>
+            </section>
+            <!-- Section: Social media -->
+        </div>
+        <!-- Grid container -->
 
-    <div class="punto3">
-      <p id="apisonables">.</p>
-    </div>
-
-
-    <footer class="pie">
-      <div class="pie__derechos">
-        <p>Todos los derechos reservados || Refractarios Industriales SRL 2022</p>
-      </div>
-      <div class="pie__redes">
-        <p>Seguinos en nuestras redes:</p>
-        <a href="https://www.instagram.com/refractariosindustrialessrl/" target="_blank"><img
-            src="../multimedia/img/instagram.png" alt="Enlace Instagram Refractarios Industriales SRL"></a>
-        <!--direccion red social inventada-->
-        <a href="https://twitter.com/refractariosindustrialessrl" target="_blank"><img
-            src="../multimedia/img/gorjeo.png" alt="Enlace Twitter Refractarios Industriales SRL"></a>
-        <!--direccion red social inventada-->
-        <a href="https://es-la.facebook.com/refractarios.industriales.srl" target="_blank"><img
-            src="../multimedia/img/facebook.png" alt="Enlace Facebook Refractarios Industriales SRL"></a>
-        <!--direccion red social inventada-->
-        <a href="https://www.youtube.com/c/RefractariosIndustrialesSRL" target="_blank"><img
-            src="../multimedia/img/youtube.png" alt="Enlace Facebook Refractarios Industriales SRL"></a>
-        <!--direccion red social inventada-->
-      </div>
+        <!-- Copyright -->
+        <div class="text-center p-3 style=" style="background-color: rgba(0, 0, 0, 0.2);">
+            Todos los derechos reservados || Refractarios Industriales SRL 2022
+        </div>
+        <!-- Copyright -->
     </footer>
-  </div>
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>

@@ -103,7 +103,7 @@ body {
 /* INDEX */
 
 /* con esta clase hasta que demos carrusel */
-.index__carrusel {
+/* .index__carrusel {
   display: flex;
   justify-content: center;
   height: 600px;
@@ -158,13 +158,12 @@ body {
   margin-top: 20px;
   width: 700px;
   height: 400px;
-}
+} */
 
 /*  SERVICIOS */
 
 .servicio,
-.obras,
-.producto {
+.obras {
   text-align: center;
   padding: 20px;
   font-size: 40px;
@@ -292,7 +291,7 @@ body {
 
 /* PRODUCTOS */
 
-.productos {
+/* .productos {
   grid-area: productos;
 }
 
@@ -389,16 +388,16 @@ body {
   padding: 0px 70px;
 }
 
-/* .btn {
+.btn {
   margin: 20px;
   border: 1px black solid;
   background-color: aquamarine;
   display: inline-block;
   padding: 5px;
-} */
+}
 
 /* lo de abajo no se si es la forma correcta, se me ocurrio hacerlo asi y funciono, ya que estaba teniendo problemas con los enlaces dentro de la pagina por la position:fixed del navbar, se me superponia sobre enlace origianal*/
-.punto {
+/* .punto {
   position: absolute;
   top: 0;
   visibility: hidden;
@@ -416,11 +415,11 @@ body {
   top: 0;
   margin-top: 680px;
   visibility: hidden;
-}
+} */
 
 /* GRID Index  */
 
-.grid-container-index {
+/* .grid-container-index {
   display: grid;
   grid-template-rows: 200px 600px auto 70px;
 
@@ -429,7 +428,7 @@ body {
     "carrusel"
     "index"
     "footer";
-}
+} */
 
 /* GRID Obras */
 
@@ -472,7 +471,7 @@ body {
 
 /* GRID Productos */
 
-.grid-container-productos {
+/* .grid-container-productos {
   display: grid;
   grid-template-rows: 200px 100px 1fr 70px;
 
@@ -481,7 +480,7 @@ body {
     "titulo"
     "productos"
     "footer";
-}
+} */
 
 /* Transiciones, animaciones y/o transformaciones - desafio crear repositorio en GitHub */
 
