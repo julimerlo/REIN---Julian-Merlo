@@ -1,101 +1,140 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Servicios</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <!-- Iconos Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+    <!-- CSS  -->
     <link rel="stylesheet" href="../styles/style.css">
 </head>
-<!--El tema de la pagina web es sobre la empresa familiar, Refractarios Industriales SRL-->
 
-<body>
+<body class="bg-dark bg-gradient">
 
-    <div class="grid-container-servicios">
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top shadow mb-3">
+            <div class="container">
+                <a class="navbar-brand" href="../index.html"><img src="../multimedia/img/reinblanco.png"
+                        alt="logo Refractarios Industriales SRL" alt="" width="100vw" height=""
+                        class="d-inline-block align-text-center">Refractarios Industriales</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <ul class="collapse navbar-collapse justify-content-evenly navbar-nav" id="navbarNav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="productos.html">Productos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="servicios.html">Servicios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="obras.html">Obras</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contacto.html">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
 
-        <header class="cabecera">
-            <nav>
-                <div class="cabecera__logo">
-                    <a href="../index.html"><img src="../multimedia/img/rein.jpg"
-                            alt="logo Refractarios Industriales SRL" width="100px">Refractarios Industriales</a>
+    <div class="container pb-3">
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+                <div class="card h-100 bg-danger bg-gradient bg-opacity-75 text-white">
+                    <h5 class="card-title pt-3 text-center">Confeccion de piezas a medida</h5>
+                    <img src="../multimedia/img/bloque-boveda.jpg" class="card-img-top py-3"
+                        alt="bloque para horno de fundicion de aluminio">
+                    <p class="card-text pb-3 px-3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate
+                        error
+                        numquam recusandae, labore exercitationem
+                        corrupti animi ipsa similique nam tenetur, adipisci soluta beatae accusamus illum libero
+                        molestias minus. Sapiente,
+                        praesentium.</p>
                 </div>
-                <div class="cabecera__lista">
-                    <ul>
-                        <li class="cabecera__lista__item"><a href="../index.html">Inicio</a></li>
-                        <li class="cabecera__lista__item"><a href="productos.html">Productos</a></li>
-                        <li class="cabecera__lista__item"><a href="servicios.html">Servicios</a></li>
-                        <li class="cabecera__lista__item"><a href="obras.html">Obras</a></li>
-                        <li class="cabecera__lista__item"><a href="contacto.html">Contacto</a></li>
-                    </ul>
+            </div>
+            <div class="col">
+                <div class="card h-100 bg-danger bg-gradient bg-opacity-75 text-white">
+                    <h5 class="card-title pt-3 text-center">Instalacion de materiales</h5>
+                    <img src="../multimedia/img/proyeccion-materiales.png" class="card-img-top py-3"
+                        alt="proyeccion de material por shotcreting">
+                    <p class="card-text pb-3 px-3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate
+                        error
+                        numquam recusandae, labore exercitationem
+                        corrupti animi ipsa similique nam tenetur, adipisci soluta beatae accusamus illum libero
+                        molestias minus. Sapiente,
+                        praesentium.</p>
                 </div>
-            </nav>
-        </header>
-
-        <h1 class="servicio">Servicios</h1>
-
-        <section>
-            <div class="servicios">
-
-                <div class="servicios__tipos">
-                    <h3>Confeccion de piezas a medida</h3>
-                    <img src="../multimedia/img/bloque-boveda.jpg" alt="bloque de boveda refractaria">
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate error numquam recusandae,
-                        labore
-                        exercitationem corrupti animi ipsa similique nam tenetur, adipisci soluta beatae accusamus illum
-                        libero
-                        molestias
-                        minus. Sapiente, praesentium.</p>
-                </div>
-
-                <div class="servicios__tipos">
-                    <h3>Instalacion de materiales</h3>
-                    <img src="../multimedia/img/proyeccion-materiales.png" alt="proyeccion de materiales refractarios">
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero quasi, aspernatur dicta
-                        assumenda qui enim
-                        quibusdam doloribus et eos quas? Asperiores ab distinctio, adipisci mollitia quos in quisquam
-                        labore
-                        numquam!
+            </div>
+            <div class="col">
+                <div class="card h-100 bg-danger bg-gradient bg-opacity-75 text-white">
+                    <h5 class="card-title pt-3 text-center">Secado y calentamiento de materiales</h5>
+                    <img src="../multimedia/img/secado-material-refractario.jpg" class="card-img-top py-3"
+                        alt="servicio de secado de materiales">
+                    <p class="card-text pb-3 px-3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate
+                        error
+                        numquam recusandae, labore exercitationem
+                        corrupti animi ipsa similique nam tenetur, adipisci soluta beatae accusamus illum libero
+                        molestias minus. Sapiente,
+                        praesentium.
                     </p>
                 </div>
-
-                <div class="servicios__tipos">
-                    <h3>Secado y calentamiento de materiales</h3>
-                    <img src="../multimedia/img/secado-material-refractario.jpg" alt="">
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo tenetur sapiente voluptate.
-                        Adipisci
-                        labore
-                        nostrum distinctio reiciendis dolores est sint culpa laudantium excepturi temporibus non quis id
-                        voluptatem,
-                        repellat molestias?</p>
-                </div>
-
             </div>
-        </section>
-
-        <footer class="pie">
-            <div class="pie__derechos">
-                <p>Todos los derechos reservados || Refractarios Industriales SRL 2022</p>
-            </div>
-            <div class="pie__redes">
-                <p>Seguinos en nuestras redes:</p>
-                <a href="https://www.instagram.com/refractariosindustrialessrl/" target="_blank"><img
-                        src="../multimedia/img/instagram.png" alt="Enlace Instagram Refractarios Industriales SRL"></a>
-                <!--direccion red social inventada-->
-                <a href="https://twitter.com/refractariosindustrialessrl" target="_blank"><img
-                        src="../multimedia/img/gorjeo.png" alt="Enlace Twitter Refractarios Industriales SRL"></a>
-                <!--direccion red social inventada-->
-                <a href="https://es-la.facebook.com/refractarios.industriales.srl" target="_blank"><img
-                        src="../multimedia/img/facebook.png" alt="Enlace Facebook Refractarios Industriales SRL"></a>
-                <!--direccion red social inventada-->
-                <a href="https://www.youtube.com/c/RefractariosIndustrialesSRL" target="_blank"><img
-                        src="../multimedia/img/youtube.png" alt="Enlace Facebook Refractarios Industriales SRL"></a>
-                <!--direccion red social inventada-->
-            </div>
-        </footer>
-
+        </div>
     </div>
 
+    <footer class="bg-dark text-center text-white">
+        <!-- Grid container -->
+        <div class="container p-2 pb-0">
+            <!-- Section: Social media -->
+            <section class="mb-2">
+                <!-- Facebook -->
+                <a class="btn btn-outline-light btn-floating m-1"
+                    href="https://es-la.facebook.com/refractarios.industriales.srl" role="button" target="_blank"><i
+                        class="bi bi-facebook"></i>
+
+                    <!-- Twitter -->
+                    <a class="btn btn-outline-light btn-floating m-1"
+                        href="https://twitter.com/refractariosindustrialessrl" role="button" target="_blank"><i
+                            class="bi bi-twitter"></i></a>
+
+                    <!-- YouTube -->
+                    <a class="btn btn-outline-light btn-floating m-1"
+                        href="https://www.youtube.com/c/RefractariosIndustrialesSRL" role="button" target="_blank"><i
+                            class="bi bi-youtube"></i></a>
+
+                    <!-- Instagram -->
+                    <a class="btn btn-outline-light btn-floating m-1"
+                        href="https://www.instagram.com/refractariosindustrialessrl/" role="button" target="_blank"><i
+                            class="bi bi-instagram"></i></a>
+            </section>
+            <!-- Section: Social media -->
+        </div>
+        <!-- Grid container -->
+
+        <!-- Copyright -->
+        <div class="text-center p-3 style=" style="background-color: rgba(0, 0, 0, 0.2);">
+            Todos los derechos reservados || Refractarios Industriales SRL 2022
+        </div>
+        <!-- Copyright -->
+    </footer>
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
 </body>
+
+
 
 </html>
