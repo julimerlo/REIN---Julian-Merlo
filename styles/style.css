@@ -526,3 +526,8 @@ font-family: 'Quicksand', sans-serif;
 .navbar-brand {
   font-size: calc(0.5rem + 2vw);
 }
+
+.img-servicios:hover {
+  box-shadow: 0px 0px 13px rgb(255, 255, 255);
+  transition: 500ms;
+}
