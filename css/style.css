@@ -1,4 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Nunito&family=Open+Sans&family=Oswald&family=Quicksand&display=swap");
+.header-index div a {
+  color: red;
+}
+.header-index div ul li {
+  font-size: 25px;
+}
+.header-index div ul li a:hover {
+  color: rgb(229, 255, 0);
+}
+
 /* CSS copiado */
 * {
   margin: 0;

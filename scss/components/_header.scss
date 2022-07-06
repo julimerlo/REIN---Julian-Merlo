@@ -1,0 +1,15 @@
+.header-index {
+  div {
+    a {
+      color: nth($colores, 1);
+    }
+    ul {
+      li {
+        font-size: nth($font-encabezados, 3);
+        a:hover {
+          color: nth($colores, 2);
+        }
+      }
+    }
+  }
+}
