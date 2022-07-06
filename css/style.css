@@ -1,4 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Nunito&family=Open+Sans&family=Oswald&family=Quicksand&display=swap");
+.seccion-index .texto {
+  border-radius: 25%;
+  border: 2px rgba(255, 255, 255, 0.671) solid;
+  background-color: rgba(126, 126, 126, 0.716);
+}
+
 .header-index div a {
   color: red;
 }
@@ -6,7 +12,21 @@
   font-size: 25px;
 }
 .header-index div ul li a:hover {
-  color: rgb(229, 255, 0);
+  color: yellow;
+}
+
+.seccion-index .texto {
+  border-radius: 25%;
+  border: 2px rgba(255, 255, 255, 0.671) solid;
+  background-color: rgba(126, 126, 126, 0.716);
+}
+
+.seccion-index .texto h5 {
+  color: black;
+  font-size: 30px;
+}
+.seccion-index .video h5 {
+  font-size: 30px;
 }
 
 /* CSS copiado */

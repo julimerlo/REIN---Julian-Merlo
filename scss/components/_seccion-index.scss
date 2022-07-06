@@ -1,0 +1,16 @@
+@import "../base/extends";
+
+.seccion-index {
+  .texto {
+    @extend %bg-style;
+    h5 {
+      color: nth($colores, 3);
+      font-size: nth($font-encabezados, 2);
+    }
+  }
+  .video {
+    h5 {
+      font-size: nth($font-encabezados, 2);
+    }
+  }
+}
