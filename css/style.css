@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Nunito&family=Open+Sans&family=Oswald&family=Quicksand&display=swap");
 .seccion-index .texto {
   border-radius: 0.375rem;
-  border: 2px rgba(255, 255, 255, 0.671) solid;
+  border: 2px rgba(234, 18, 18, 0.671) solid;
   background-color: rgba(126, 126, 126, 0.716);
 }
 
@@ -30,7 +30,7 @@
 
 .seccion-index .texto {
   border-radius: 0.375rem;
-  border: 2px rgba(255, 255, 255, 0.671) solid;
+  border: 2px rgba(234, 18, 18, 0.671) solid;
   background-color: rgba(126, 126, 126, 0.716);
 }
 
