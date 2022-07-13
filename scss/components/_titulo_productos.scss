@@ -1,3 +1,11 @@
 .titulo_productos {
   background-color: map-get($standard, bg-standard);
+  div {
+    h2 {
+      color: map-get($standard, color-standard);
+    }
+    p {
+      font-size: map-get($standard, font-size-standard);
+    }
+  }
 }
