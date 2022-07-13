@@ -29,6 +29,10 @@
   font-size: 30px;
 }
 
+.titulo_productos {
+  background-color: grey;
+}
+
 /* CSS copiado */
 * {
   margin: 0;

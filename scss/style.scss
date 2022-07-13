@@ -1,9 +1,11 @@
 @import "base/variables";
 @import "base/listas";
 @import "base/extends";
+@import "base/mapas";
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Nunito&family=Open+Sans&family=Oswald&family=Quicksand&display=swap");
 @import "components/header";
 @import "components/seccion-index";
+@import "components/titulo_productos";
 
 /* CSS copiado */
 * {
